@@ -1,6 +1,6 @@
 # KOReader Pangolin Access Bypass
 
-A lightweight Lua patch for [KOReader](https://github.com/koreader/koreader) that enables authentication against **Pangolin** using Access Tokens.
+A lightweight Lua patch for [KOReader](https://github.com/koreader/koreader) that enables authentication against **Pangolin** using headers.
 
 This patch allows you to access OPDS catalogs (like Calibre-Web Automated, Audiobookshelf, or Kavita) that are protected behind Pangolin without needing a browser login, VPN client, or complex proxy setups on your e-reader.
 
@@ -14,7 +14,7 @@ This script uses **"Monkey Patching"** to hook into the core Lua network librari
 2.  A **Pangolin** instance protecting your OPDS server.
 
 ## ⚙️ Pangolin Setup
-Before installing the patch, you must generate an **Access Token** in Pangolin. This acts as a machine-to-machine credential for your device.
+Before installing the patch, you must generate a share link with 2 header key value pairs in Pangolin. This acts as a machine-to-machine credential for your device.
 
 1.  Open your **Pangolin Dashboard**.
 2.  Navigate to the **Access Tokens** section.

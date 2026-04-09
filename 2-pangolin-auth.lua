@@ -1,5 +1,5 @@
 -- 2-pangolin-auth.lua
--- Pangolin Access Token Authentication Patch
+-- Pangolin Custom Header Authentication Patch
 -- Injects P-Access-Token-Id and P-Access-Token headers into all HTTP/HTTPS requests
 
 local logger = require("logger")
